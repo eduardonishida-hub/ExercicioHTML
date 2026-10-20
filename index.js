@@ -49,7 +49,7 @@ app.get('/api/ex5/:m', (req,res) => {
     const m = Number(req.params.m)
 
     res.send ({ "O valor das milhas em km é": m * 1.60934})
-})
+});
 
 app.listen(3000, () => {
         console.log(`Servidor rodando em http://localhost:${3000}`);
